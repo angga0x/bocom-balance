@@ -28,8 +28,8 @@ def getRandom():
 def cekReward(email, password):
     global checked_lines, live_count, die_count
     proxyList = {
-        'http': 'http://3f25c5b3bdb1671d5435:e66f9808b1835665@gw.dataimpulse.com:823',
-        'https': 'http://3f25c5b3bdb1671d5435:e66f9808b1835665@gw.dataimpulse.com:823'
+        'http': 'http://user:pass@host:port',
+        'https': 'http://user:pass@host:port'
     }
 
     with requests.Session() as s:
